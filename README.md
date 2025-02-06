@@ -22,3 +22,12 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+
+# run command  
+bin/rails server
+# model generating command
+bin/rails generate model model_name colum_name:colum_type
+# DB migrate command
+bin/rails db:migrate  // undo the last migration => bin/rails db:rollback
