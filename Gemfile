@@ -27,6 +27,10 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+# Adjust version as needed
+gem 'stringio', '= 3.1.2'  
+
+gem 'foreman'
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
@@ -70,3 +74,7 @@ group :test do
   gem "selenium-webdriver"
 
 end
+
+gem "tailwindcss-ruby", "~> 4.0"
+
+gem "tailwindcss-rails", "~> 4.0"
